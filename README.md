@@ -10,6 +10,15 @@ Este projeto tem como objetivo criar uma API para gerenciar professores, salas, 
 - PostgreSQL
 - Lombok
 
+  ## Execução do projeto
+  
+  importar no spring tool suit e executar docker compose antes com
+  - docker compose up -d para subir o banco
+  - logo em seguida pode startar normalmente na ide de preferencia usar Spring Tool Suit
+
+  ## Projeto endpoint do swagger
+  http://localhost:8080/swagger-ui/index.html
+
 ## 📁 Estrutura da Aplicação
 
 O sistema é composto por várias entidades, entre elas:
