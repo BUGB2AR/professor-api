@@ -19,6 +19,14 @@ Este projeto tem como objetivo criar uma API para gerenciar professores, salas, 
   ## Projeto endpoint do swagger
   http://localhost:8080/swagger-ui/index.html
 
+  ## Observações
+-  Para executar o sql init basta mudar esse trecho no application.properties
+
+- spring.sql.init.mode=never para 
+- spring.sql.init.mode=aways, após fazer isso mudar 
+- para never novamente para executar a aplicação ja com os dados populados sem ter que executar
+- novamente o sql.init se prefirir pode copiar o script manualmente e executar no banco de dados postgresql.
+
 ## 📁 Estrutura da Aplicação
 
 O sistema é composto por várias entidades, entre elas:
